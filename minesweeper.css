@@ -1,0 +1,73 @@
+#game{
+    justify-content: center; 
+    position: absolute;
+    top:20%;
+    left: 30%;
+}
+
+#gameResult{
+    text-align: center;
+    font-size: 40px;
+    color: red;
+}
+#container{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+.squareB{
+   height: 23px;
+    width: 23px;
+    background: blue;
+    background: linear-gradient(top right,#00f,#008);
+    background: -moz-linear-gradient(top right,#00f,#008);
+    background: -o-linear-gradient(top right,#00f,#008);
+    background: -webkit-linear-gradient(top right,#00f,#008);
+    background: -ms-linear-gradient(top right,#00f,#008);
+    border: 1px blue solid;
+    margin: 0px;
+}
+
+.squareW{
+    height: 23px;
+    width: 23px; 
+    background-color: whitesmoke;
+    border: 1px blue solid;
+    margin: 0px;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.squareR{
+    height: 23px;
+    width: 23px; 
+    background-color: yellow;
+    background: radial-gradient(center,#ff0,#500);
+    background: -moz-radial-gradient(center,#ff0,#500);
+    background: -o-radial-gradient(center,#ff0,#500);
+    background: -webkit-radial-gradient(center,#ff0,#500);
+    background: -ms-radial-gradient(center,#ff0,#500);
+    border: 1px blue solid;
+    margin: 0px;
+}
+
+.squareM{
+    height: 23px;
+    width: 23px; 
+    background-color: red;
+    background: radial-gradient(center,#f00,#500);
+    background: -moz-radial-gradient(center,#f00,#500);
+    background: -o-radial-gradient(center,#f00,#500);
+    background: -webkit-radial-gradient(center,#f00,#500);
+    background: -ms-radial-gradient(center,#f00,#500);
+    border: 1px blue solid;
+    margin: 0px;
+}
